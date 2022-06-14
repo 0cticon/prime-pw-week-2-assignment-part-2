@@ -145,7 +145,7 @@ console.log('js');
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-// // operator should be &&
+// // operator should be && instead of ||
 // let temp = 40;
 // const time = 4;
 
