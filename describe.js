@@ -1,4 +1,4 @@
-console.log('js');
+console.log('jst');
 // WHAT IS THIS EVEN DOING?
 
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
@@ -15,85 +15,85 @@ console.log('js');
 
 //CODE
 
-// let number = 1;
+let number = 1;
 
-// number++;
+number++;
 
-// if (number >= 2) {
-//   console.log('yes');
-// }
+if (number >= 2) {
+  console.log('yes');
+}
 
 
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// incrimentally adding 1 to the value 'number' becoming greater than or equal to 2
+// 
 // 
 // 
 //
 
 //CODE
+/*
+let name = 'Dane';
 
-// let name = 'Dane';
+if (name === 'Mary') {
+  console.log('Hi, Mary!');
+} else {
+  console.log('How do you do?');
+}
 
-// if (name === 'Mary') {
-//   console.log('Hi, Mary!');
-// } else {
-//   console.log('How do you do?');
-// }
 
+*/
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// value Dane does not exactly equal value Mary, so the else block is run
+// 
+// 
 // 
 //
 
 //CODE
+/*
+let secret;
 
-// let secret;
+let code = 123;
 
-// let code = 123;
+if(code === 123) {
+  secret = 'super';
+  code = code * 2;
+}
 
-// if (code === 123) {
-//   secret = 'super';
-//   code = code * 2;
-// }
+if (code > 250) {
+  secret = 'duper'
+}
 
-// if (code > 250) {
-//   secret = 'duper'
-// }
+console.log(secret)
 
-// console.log(secret);
-
-
-
+*/
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// let value code is modified * 2, value secret is still not greater than 250, so the first if block is run to the console
+// 
 // 
 // 
 //
+
 //CODE
+/*
+let isStudent = true;
+let age = 34;
+let zip = 55407;
 
+if (isStudent === true && zip > 80000 ) {
+  console.log(`You're a student on the West Coast!`);
+} else if (isStudent === false || age < 30) {
+  console.log('What are your hobbies?');
+} else if (isStudent === true) {
+  console.log('Welcome to Prime!');
+} else {
+  console.log('How about the weather?')
+}
 
-// let isStudent = true;
-// let age = 34;
-// let zip = 55407;
+*/
 
-// if (isStudent === true && zip > 80000) {
-//   console.log(`You're a student on the West Coast!`);
-// } else if (isStudent === false || age < 30) {
-//   console.log('What are your hobbies?');
-// } else if (isStudent === true) {
-//   console.log('Welcome to Prime!');
-// } else {
-//   console.log('How about the weather?')
-// }
-
-// first if, zip value is not greater than 8000 = false
-// *else if isStudent value is !false and !< 30
-// else if  is === and logs 'Welcome to Prime!'
-// else is not run due to the previous block being true
 
 
 
@@ -111,18 +111,18 @@ console.log('js');
 // -- it is, so we console.log 'yes'
 
 //CODE
-
-// let number = 1;
+/*
+let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment.
-// // Should be number++.
-// number++;
+// Should be number++.
+number--;
 
-// if (number >= 2) {
-//   console.log('yes');
-// }
+if (number >= 2) {
+  console.log('yes');
+}
 
-
+*/
 
 
 
@@ -130,41 +130,41 @@ console.log('js');
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+/*
+let colorOne = 'red';
+let colorTwo = 'blue';
+let mix = true;
 
-// let colorOne = 'red';
-// let colorTwo = 'blue';
-// let mix = true;
-// if (mix === true) {
-//   mix = 'purple';
-//   console.log(mix);
-// }
-
-
+if (mix === true) {
+  colorOne = 'purple';
+}
+*/
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-// // operator should be &&
-// let temp = 40;
-// const time = 4;
+/*
+let temp = 40;
+const time = 4;
 
-// if (temp > 39 && time >= 4) {
-//   console.log('throw away the food!');
-// }
-
+if (temp > 39 || time >= 4) {
+  console.log('throw away the food!');
+}
+*/
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
-// console.log entries were reversed
+/*
 let age = 21;
 const minAge = 21;
 
-if (minAge <= age) {
-  console.log('enter');
-} else {
+if(minAge <= age) {
   console.log('no entry');
+} else {
+  console.log('enter');
 }
+*/
 
